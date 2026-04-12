@@ -1,0 +1,19 @@
+name: torch_env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - matplotlib-inline
+  - scikit-learn
+  - numpy=1.26.4
+  - tk=8.6.14
+  - tqdm
+  - mlxtend
+  - ipywidgets
+  - openpyxl
+  - gymnasium
+prefix: /opt/anaconda3/envs/torch_env
